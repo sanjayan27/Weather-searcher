@@ -1,0 +1,48 @@
+.main-Footer{
+   text-transform: capitalize;
+    background: #Ffd700;
+    padding-top: 30px;
+    float: bottom;
+}
+.section-footer{
+    display: flex;
+    flex-direction: column;
+    color: black
+    ;
+}
+.heading-footr h2{
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    
+}
+.conntent-footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.conntent-footer ul li{
+    list-style: none;
+}
+.last-content-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.last-content-footer ul{
+    display: flex;
+    gap: 30px;
+}
+.last-content-footer li{
+    list-style: none;
+}
+.last-content-footer li a{
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.last-content-footer li a:hover{
+    color: rgb(54, 54, 54);
+
+}
